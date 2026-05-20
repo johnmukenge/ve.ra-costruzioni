@@ -6,7 +6,7 @@ import { company } from "@/app/data/company";
 
 export const metadata: Metadata = {
   title: "Contatti",
-  description: "Contatta Ve.Ra Costruzioni Srl Construction per un preventivo: form, recapiti aziendali e mappa.",
+  description: "Contatta Ve.Ra Costruzioni Srl per un preventivo: form, recapiti aziendali e mappa.",
 };
 
 export default function ContactPage() {

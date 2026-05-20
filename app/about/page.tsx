@@ -8,7 +8,7 @@ import { team } from "@/app/data/team";
 
 export const metadata: Metadata = {
   title: "Chi siamo",
-  description: "Scopri storia, mission, vision e team di Ve.Ra Costruzioni Srl Construction.",
+  description: "Scopri storia, mission, vision e team di Ve.Ra Costruzioni Srl.",
 };
 
 export default function AboutPage() {

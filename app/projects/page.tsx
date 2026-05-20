@@ -8,7 +8,7 @@ import { projects } from "@/app/data/projects";
 
 export const metadata: Metadata = {
   title: "Progetti",
-  description: "Esplora i progetti Ve.Ra Costruzioni Srl Construction: ristrutturazioni, nuove costruzioni e industriale.",
+  description: "Esplora i progetti Ve.Ra Costruzioni Srl: ristrutturazioni, nuove costruzioni e industriale.",
 };
 
 export default function ProjectsPage() {

@@ -1,10 +1,10 @@
 export const company = {
-  name: "Ve.Ra Costruzioni Srl Construction",
+  name: "Ve.Ra Costruzioni Srl",
   slogan: "Costruiamo valore, progetto dopo progetto.",
   description:
     "Impresa edile specializzata in ristrutturazioni, nuove costruzioni e interventi industriali. Accompagniamo ogni cliente dalla pianificazione alla consegna.",
   history:
-    "Fondata oltre 20 anni fa, Ve.Ra Costruzioni Srl Construction nasce dall'esperienza artigianale nel settore edilizio e si evolve in una realtà moderna, orientata all'innovazione e alla sostenibilità.",
+    "Fondata oltre 20 anni fa, Ve.Ra Costruzioni Srl nasce dall'esperienza artigianale nel settore edilizio e si evolve in una realtà moderna, orientata all'innovazione e alla sostenibilità.",
   mission:
     "Realizzare opere solide, sicure e durature, con processi trasparenti e un approccio orientato al risultato.",
   vision:

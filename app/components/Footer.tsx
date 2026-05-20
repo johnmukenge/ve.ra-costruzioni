@@ -34,7 +34,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 py-4 text-center text-xs text-white/60">
-        © {new Date().getFullYear()} Ve.Ra Costruzioni Srl Construction. Tutti i diritti riservati.
+        © {new Date().getFullYear()} Ve.Ra Costruzioni Srl. Tutti i diritti riservati.
       </div>
     </footer>
   );

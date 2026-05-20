@@ -15,7 +15,7 @@ export function Navbar() {
       <nav className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-4">
           <Link href="/" className="text-lg font-bold text-[var(--color-primary)] dark:text-white">
-            Ve.Ra Costruzioni Srl Construction
+            Ve.Ra Costruzioni Srl
           </Link>
           <ThemeToggle />
         </div>

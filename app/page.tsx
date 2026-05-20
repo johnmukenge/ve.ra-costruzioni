@@ -13,7 +13,7 @@ import { projects } from "@/app/data/projects";
 export const metadata: Metadata = {
   title: "Home",
   description:
-    "Ve.Ra Costruzioni Srl Construction: impresa edile per ristrutturazioni, nuove costruzioni e progetti industriali.",
+    "Ve.Ra Costruzioni Srl: impresa edile per ristrutturazioni, nuove costruzioni e progetti industriali.",
 };
 
 export default function Home() {

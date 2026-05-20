@@ -35,3 +35,39 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # ve.ra-costruzioni
+
+## Docker
+
+Build immagine:
+
+```bash
+docker build -t vera-construzioni .
+```
+
+Run container:
+
+```bash
+docker run -p 3000:3000 vera-construzioni
+```
+
+Oppure con Docker Compose:
+
+```bash
+docker compose up --build
+```
+
+## Deploy automatico su Vercel da GitHub (main)
+
+1. Vai su Vercel e fai login.
+2. Clicca **Add New... → Project**.
+3. Importa il repository GitHub `johnmukenge/ve.ra-costruzioni`.
+4. Framework Preset: **Next.js** (auto).
+5. Branch di produzione: **main**.
+6. Clicca **Deploy**.
+
+Dopo il collegamento:
+
+- ogni push su `main` farà un deploy Production automatico;
+- ogni PR/branch farà un deploy Preview automatico.
+
+Se vuoi limitare il deploy solo a `main`, in Vercel imposta regole branch in **Settings → Git**.

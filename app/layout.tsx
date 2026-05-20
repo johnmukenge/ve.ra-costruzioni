@@ -18,17 +18,17 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL("https://vera-construction.example"),
   title: {
-    default: "Ve.Ra Costruzioni Srl Construction | Impresa Edile",
-    template: "%s | Ve.Ra Costruzioni Srl Construction",
+    default: "Ve.Ra Costruzioni Srl | Impresa Edile",
+    template: "%s | Ve.Ra Costruzioni Srl",
   },
   description:
-    "Ve.Ra Costruzioni Srl Construction realizza ristrutturazioni, nuove costruzioni e interventi industriali con qualità, sicurezza e puntualità.",
+    "Ve.Ra Costruzioni Srl realizza ristrutturazioni, nuove costruzioni e interventi industriali con qualità, sicurezza e puntualità.",
   keywords: [
     "impresa edile",
     "ristrutturazioni",
     "nuove costruzioni",
     "cantieri",
-    "Ve.Ra Costruzioni Srl Construction",
+    "Ve.Ra Costruzioni Srl",
   ],
 };
 
