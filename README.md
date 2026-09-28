@@ -56,6 +56,63 @@ Oppure con Docker Compose:
 docker compose up --build
 ```
 
+## Deploy su UGREEN NAS (Docker)
+
+Prerequisiti:
+
+- UGREEN NAS con Docker attivo
+- Porta `3000` libera (o porta alternativa)
+
+### Opzione A (consigliata): Docker Compose su NAS
+
+1. Copia il progetto nel NAS (es. in una cartella `vera-construzioni`).
+2. Apri il terminale del NAS nella cartella progetto.
+3. Avvia build e deploy:
+
+```bash
+docker compose up -d --build
+```
+
+4. Verifica che il container sia in esecuzione:
+
+```bash
+docker compose ps
+```
+
+5. Apri il sito da browser:
+
+- `http://IP_DEL_NAS:3000`
+
+### Opzione B: solo Docker
+
+1. Build:
+
+```bash
+docker build -t vera-construzioni:latest .
+```
+
+2. Run:
+
+```bash
+docker run -d --name vera-construzioni-web --restart unless-stopped -p 3000:3000 vera-construzioni:latest
+```
+
+3. Apri `http://IP_DEL_NAS:3000`.
+
+### Aggiornamento versione sul NAS
+
+Quando aggiorni il codice:
+
+```bash
+docker compose down
+docker compose up -d --build
+```
+
+### Note utili
+
+- Se usi reverse proxy (Nginx/Traefik), punta al servizio `web:3000`.
+- Per HTTPS pubblico, termina TLS sul reverse proxy del NAS.
+
 ## Deploy automatico su Vercel da GitHub (main)
 
 1. Vai su Vercel e fai login.

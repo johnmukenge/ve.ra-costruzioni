@@ -16,18 +16,21 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vera-construction.example"),
+  metadataBase: new URL("https://www.veracostruzioni.it"),
   title: {
     default: "Ve.Ra Costruzioni Srl | Impresa Edile",
     template: "%s | Ve.Ra Costruzioni Srl",
   },
   description:
-    "Ve.Ra Costruzioni Srl realizza ristrutturazioni, nuove costruzioni e interventi industriali con qualità, sicurezza e puntualità.",
+    "Vera Costruzioni S.r.l. realizza costruzioni, ristrutturazioni, manutenzioni e interventi impiantistici in Lombardia. Competenza integrata in edile, elettrico, termoidraulico, fotovoltaico e impermeabilizzazioni.",
   keywords: [
     "impresa edile",
     "ristrutturazioni",
     "nuove costruzioni",
-    "cantieri",
+    "manutenzioni",
+    "impianti",
+    "fotovoltaico",
+    "Lombardia",
     "Ve.Ra Costruzioni Srl",
   ],
 };

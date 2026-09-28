@@ -32,7 +32,7 @@ export default function AboutPage() {
         </Grid>
       </Section>
 
-      <Section title="Team" subtitle="Professionisti con competenze tecniche e gestionali complementari.">
+      <Section title="Team" subtitle="Una squadra che unisce ufficio amministrativo e parte operativa per seguire ogni lavoro con continuità.">
         <Grid columns={4}>
           {team.map((member) => (
             <Card key={member.name} className="animate-fade-in-up">

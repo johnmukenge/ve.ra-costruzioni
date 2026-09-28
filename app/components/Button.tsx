@@ -20,8 +20,17 @@ const variants = {
 
 export function Button({ href, children, variant = "primary", className }: ButtonProps) {
   const classes = `${baseStyles} ${variants[variant]} ${className ?? ""}`;
+  const isExternalHref = href?.startsWith("mailto:") || href?.startsWith("tel:") || href?.startsWith("http://") || href?.startsWith("https://");
 
   if (href) {
+    if (isExternalHref) {
+      return (
+        <a href={href} className={classes}>
+          {children}
+        </a>
+      );
+    }
+
     return (
       <Link href={href} className={classes}>
         {children}
